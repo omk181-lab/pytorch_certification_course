@@ -7,7 +7,7 @@ print(torch.__version__)
 
 # Introduction to Tensors 
 
-Creating tensors 
+# Creating tensors 
 
 ## Scalar  LOWER CASE VARIABLE 
 
@@ -62,18 +62,18 @@ print(TENSOR[1][0], TENSOR[0][1])
 
 ## RANDOM TENSORS 
 
-Why random tensors? 
-Random tensors are important because the way neural network works is that they start with tensors full of random numbers 
-and then adjust those random numberss to better represent the data. 
+# Why random tensors? 
+# Random tensors are important because the way neural network works is that they start with tensors full of random numbers 
+# and then adjust those random numberss to better represent the data. 
 
-Start with random numbers -> look at data -> update random numbers -> look at data -> update random numbers 
+# Start with random numbers -> look at data -> update random numbers -> look at data -> update random numbers 
 
-Create a random tensor of shape (3,4)
+# Create a random tensor of shape (3,4)
 random_tensor = torch.rand(3,4)
 print(random_tensor)
 print(random_tensor.ndim)
 
-Create a radom tensor with similar shape to an image tensor 
+# Create a radom tensor with similar shape to an image tensor 
 
 random_image_size_tensor = torch.rand(size=(224,224,3)) # height, width, color chnnales 
 
