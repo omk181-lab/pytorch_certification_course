@@ -127,9 +127,9 @@ six_ones = torch.ones_like(input=one_to_eleven)
 print(six_ones)
 
 ## Tensor datatypes  Tensor datatype is one of the the 3 big erros with Pytorch and deep learning 
-1. Tensors not right datatype 
-2. Tensor not right shape 
-3. Tensor not on the right device 
+# 1. Tensors not right datatype 
+# 2. Tensor not right shape 
+# 3. Tensor not on the right device 
 
 # Float32 tensor 
 float_32_tensor = torch.tensor([3.0,6.0,9.0], 
